@@ -8,7 +8,7 @@ Launch the ***restplusApiJWT.py*** and visit http://127.0.0.1:8080
 
 ## Installation
 ### virtualenv
-Install python3-venv on your machine, then
+Install **python3-virtualenv** on your machine, then
 ``` bash
 git clone git@github.com:binc75/restplusApi.git
 cd restplusApi/
