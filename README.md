@@ -10,7 +10,7 @@ Out of the box this library provide a Swagger interface!
 Launch the ***restplusApiJWT.py*** and visit http://127.0.0.1:8080
 
 ## Installation
-### virtualenv
+### with virtualenv
 Install **python3-virtualenv** on your machine, then
 ``` bash
 git clone git@github.com:binc75/restplusApi.git
