@@ -95,7 +95,9 @@ class LoginUser(Resource):
         return {'message': 'Unauthorized!'}, 401
 
 
-# Defining JSON structure of the post
+
+
+# Defining JSON structure for the posts
 json_model = api.model("addrecord",
                                     {
                                     "domain": fields.String(description="Domain / Zone", required=True),
