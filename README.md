@@ -21,3 +21,13 @@ pip install -r requirements.txt --no-cache
 ./restplusApiJWT.py
 ```
 
+## Quick example
+Get the token after succesful authentication
+``` bash
+TOKEN=$(curl --user admin:12345 http://127.0.0.1:8080/login | jq -r '.token')
+```
+
+Post data using the token
+```bash
+curl -s -X POST -d '{"domain": "example.com", "hostname": "host01", "ip": "192.168.1.2"}' -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer $TOKEN" http://127.0.0.1:8080/addrecord | jq .
+```
