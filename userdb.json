@@ -1,0 +1,12 @@
+{
+    "admin": {
+        "pwhash" : "$2b$12$JclDpznKPeKFHqNBS0TXjOrBt/GrcJ5dwSIpoZ10ulwJ8wrs1Wrtm"
+    },
+    "nbianchi": {
+        "pwhash" : "$2b$12$n157.uRhsPEtzHDa8tWj2Og.RStFhx4EW1epJPHHDoKZPQn6PaFuW"
+    },
+    "syssrv": {
+        "pwhash" : "$2b$12$JclDpznKPeKFHqNBS0TXjOrBt/GrcJ5dwSIpoZ10ulwJ8wrs1Wrtm"
+    }
+}
+

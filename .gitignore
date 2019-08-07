@@ -1,0 +1,23 @@
+# ignore all logs
+*.log
+
+# ignore all tmp directories
+**/tmp
+
+# ignore all output directories
+**/output
+
+# ignore all swp files
+*.swp
+
+# ignore all __pycache__ directories
+**/__pycache__
+
+# ignore password/ini files
+config.ini
+
+# ignore records.json
+records.json
+
+# ignore env dir
+**/env
