@@ -31,3 +31,13 @@ Post data using the token
 ```bash
 curl -s -X POST -d '{"domain": "example.com", "hostname": "host01", "ip": "192.168.1.2"}' -H "Accept: application/json" -H "Content-Type: application/json" -H "Authorization: Bearer $TOKEN" http://127.0.0.1:8080/addrecord | jq .
 ```
+
+## Passwords hash generation
+In order to creae the hased passwords to put in the JSON file follow this procedure.
+``` python
+>>> import bcrypt
+>>> password = 'abc123'
+>>> hashed = bcrypt.hashpw(password.encode('UTF-8'), bcrypt.gensalt())
+>>> print(hashed.decode('UTF-8'))
+$2b$12$6jqow5hAKmvl5AHCIOtjkuVavhyFFV7.Dnyc6gFdFWH0BG3IT1SEO
+```
