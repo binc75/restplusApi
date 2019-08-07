@@ -2,6 +2,8 @@
 Simple RestAPI POC using ***flask-restplus*** with authentication capabilities, JWT (JSON Web Token) management and python decorators.
 
 Out of the box this library provide a Swagger interface!
+
+
 ![Alt text](img/RestAPI_POC.png?raw=true "Swagger POC")
 
 ## Usage
